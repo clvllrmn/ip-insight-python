@@ -16,3 +16,8 @@ IP Insight retrieves public IP addressing information using REST APIs.
 - REST API
 - JSON
 - GitHub
+
+pip install -r requirements.txt
+python main.py
+
+python -m unittest discover -s tests -v
